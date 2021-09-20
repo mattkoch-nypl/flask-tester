@@ -1,3 +1,32 @@
-<h1>This is home</h1>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"> 
 
-<h2>{{ name }}</h2>
+
+<div class="container is-max-widescreen">
+ 
+    <h1 class="title">URL Shortener</h1>
+
+    <form action="your-url">
+
+        <div class="field">
+            <label class="label">Website URL</label>
+            <div class="control">
+              <input class="input" name="url" value="" type="url" placeholder="http://some-long-url-you-want-to-shorten.com/link/1/2/3/4/">
+            </div>
+        </div>
+        <div class="field">
+            <label class="label">Short Name</label>
+            <div class="control">
+              <input class="input" name="code" value="" type="url" placeholder="">
+            </div>
+        </div>
+
+        <div class="field">
+            <div class="control">
+              <button class="button is-link" type="submit">Shorten</button>
+            </div>
+          </div>
+    </form>
+
+</div>
+
+
