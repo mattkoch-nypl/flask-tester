@@ -5,18 +5,19 @@
  
     <h1 class="title">URL Shortener</h1>
 
-    <form action="your-url">
+    <form action="your-url" method="POST">
 
         <div class="field">
             <label class="label">Website URL</label>
             <div class="control">
-              <input class="input" name="url" value="" type="url" placeholder="http://some-long-url-you-want-to-shorten.com/link/1/2/3/4/">
+              <input class="input" required name="url" value="" type="url" placeholder="http://some-long-url-you-want-to-shorten.com/link/1/2/3/4/">
             </div>
         </div>
+
         <div class="field">
             <label class="label">Short Name</label>
             <div class="control">
-              <input class="input" name="code" value="" type="url" placeholder="">
+              <input class="input" required name="code" value="" type="text" placeholder="">
             </div>
         </div>
 
